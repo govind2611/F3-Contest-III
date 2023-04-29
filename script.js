@@ -1,7 +1,7 @@
 if (localStorage.getItem("user")) {
   let name = JSON.parse(localStorage.getItem("user")).fullName;
   alert(`${name} you are already signed in`);
-  window.location.href = "/profile/profile.html";
+  window.location.href = "./profile.html";
 }
 
 const errorMsg = document.getElementById("error");
