@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F3 Contest III</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Header</div>
+      <div class="nav-links">
+        <a href="/index.html" class="signupNav">Signup</a>
+        <a href="" class="profile">Profile</a>
+      </div>
+    </nav>
+
+    <div class="main">
+      <div class="heading">Signup</div>
+      <form>
+        <input type="text" placeholder="Full Name" id="fName" />
+        <input type="email" placeholder="Email" id="email" />
+        <input type="password" placeholder="Password" id="password" />
+        <input
+          type="password"
+          placeholder="Confirm Password"
+          id="confirm-password"
+        />
+
+        <div class="msg">
+          <div class="error" id="error"></div>
+          <div class="succes" id="succes"></div>
+        </div>
+
+        <button type="submit" id="signup">Signup</button>
+      </form>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
